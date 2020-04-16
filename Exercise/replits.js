@@ -19,3 +19,21 @@ function getRandomInt()
 
 console.log(getRandomInt());
 //-----------------------------------------------------------------
+
+
+// Se você executar esse código, verá uma contagem de 0 a 99 (caracteres em branco). 
+// Corrija-o para que conte até 100, e você verá 101 em verde depois.
+
+// Você pode concertar isso?
+function startCounting()
+{
+	
+	for(var i = 0; i < 100; i++)
+	{
+		console.log(i);
+	}
+	
+	return i;
+}
+
+startCounting();
