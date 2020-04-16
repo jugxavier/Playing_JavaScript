@@ -51,14 +51,14 @@ function isOldEnoughToDrink(age){
 // console.log (output); // -> true
 
 //your code here!!
-function isOldEnoughToDrive(age){
-    if(age >16){
-        return true;
-    }
-    else{
-        return false;
-    }
-}
+// 'function isOldEnoughToDrive(age){
+//     if(age >16){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }'
 // console.log(isOldEnoughToDrive(17))
 
 
@@ -73,6 +73,16 @@ function isOldEnoughToDrive(age){
 
 // var output = isOldEnoughToVote (22);
 // console.log (output); // -> true
+function isOldEnoughToVote(age){
+    if(age >18){
+        return true
+    }
+    else{
+        return false
+    }
+}
+// console.log(isOldEnoughToVote(17))
+    
 
 
 //___________________________________________________________________
@@ -86,5 +96,14 @@ function isOldEnoughToDrive(age){
 
 // var output = isOldEnoughToDrinkAndDrive (22);
 // console.log (saída); // -> false
-
+function isOldEnoughToDrinkAndDrive(age){
+    // if(age >21){
+    //     return false
+    // }
+    // else{ 
+    //     return false
+    // }
+    return false;
+}
+console.log(isOldEnoughToDrinkAndDrive(50))
 //___________________________________________________________________
