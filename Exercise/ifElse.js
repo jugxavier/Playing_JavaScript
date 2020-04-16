@@ -9,17 +9,17 @@
 // Dica:
 // Use uma instrução If / else para verificar o valor da variável "total".
 
-var total = prompt("How much money do you have in your pocket")
+// var total = prompt("How much money do you have in your pocket")
 
-  if(total >100){
-    console.log("Dê-me seu dinheiro!")
-  }
-  else if(total >50){
-    console.log("Compre um café barato!")
-  }
-  else{
-    console.log( "Você é um cara pobre, vá embora!")
-  }
+//   if(total >100){
+//     console.log("Dê-me seu dinheiro!")
+//   }
+//   else if(total >50){
+//     console.log("Compre um café barato!")
+//   }
+//   else{
+//     console.log( "Você é um cara pobre, vá embora!")
+//   }
 //___________________________________________________________________
 // Escreva uma função chamada "isOldEnoughToDrink".
 
@@ -30,3 +30,12 @@ var total = prompt("How much money do you have in your pocket")
 
 // var output = isOldEnoughToDrink (22);
 // console.log (output); // -> true
+function isOldEnoughToDrink(age){
+    if(age >21){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+console.log(isOldEnoughToDrink(18))
