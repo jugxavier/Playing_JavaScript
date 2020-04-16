@@ -20,4 +20,13 @@ var total = prompt("How much money do you have in your pocket")
   else{
     console.log( "Você é um cara pobre, vá embora!")
   }
-   
+//___________________________________________________________________
+// Escreva uma função chamada "isOldEnoughToDrink".
+
+// Dado um número, neste caso uma idade, "isOldEnoughToDrink" 
+// retorna se uma pessoa dessa idade tem idade suficiente para beber legalmente nos Estados Unidos.
+
+// Notas: * A idade legal para beber nos Estados Unidos é 21.
+
+// var output = isOldEnoughToDrink (22);
+// console.log (output); // -> true
