@@ -38,4 +38,19 @@ function isOldEnoughToDrink(age){
         return false;
     }
 }
-console.log(isOldEnoughToDrink(18))
+// console.log(isOldEnoughToDrink(18))
+//___________________________________________________________________
+// Escreva uma função chamada "isOldEnoughToDrive".
+
+// Dado um número, neste caso uma idade, "isOldEnoughToDrive" 
+// retorna se uma pessoa dessa idade tem idade suficiente para dirigir legalmente nos Estados Unidos.
+
+// Notas: * A idade legal para dirigir nos Estados Unidos é 16.
+
+// var output = isOldEnoughToDrive (22);
+// console.log (output); // -> true
+
+//your code here!!
+
+
+//___________________________________________________________________
