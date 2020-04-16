@@ -76,3 +76,15 @@ function isOldEnoughToDrive(age){
 
 
 //___________________________________________________________________
+
+// Escreva uma função chamada "isOldEnoughToDrinkAndDrive".
+
+// Dado um número, nesse caso, uma idade, "isOldEnoughToDrinkAndDrive" 
+// retorna se uma pessoa dessa idade tem idade suficiente para beber e dirigir legalmente nos Estados Unidos.
+
+// Notas: * A idade legal para beber nos Estados Unidos é 21 anos. * É sempre ilegal beber e dirigir nos Estados Unidos.
+
+// var output = isOldEnoughToDrinkAndDrive (22);
+// console.log (saída); // -> false
+
+//___________________________________________________________________
