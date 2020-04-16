@@ -17,7 +17,7 @@ function getRandomInt()
 }
 
 
-console.log(getRandomInt());
+// console.log(getRandomInt());
 //-----------------------------------------------------------------
 
 
@@ -28,7 +28,7 @@ console.log(getRandomInt());
 function startCounting()
 {
 	
-	for(var i = 0; i < 100; i++)
+	for(var i = 100; i >= 0; i--)
 	{
 		console.log(i);
 	}
