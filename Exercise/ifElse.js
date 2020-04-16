@@ -59,7 +59,20 @@ function isOldEnoughToDrive(age){
         return false;
     }
 }
-console.log(isOldEnoughToDrive(17))
+// console.log(isOldEnoughToDrive(17))
+
+
+//___________________________________________________________________
+
+// Escreva uma função chamada "isOldEnoughToVote".
+
+// Dado um número, neste caso uma idade, 'isOldEnoughToVote' 
+//  se uma pessoa dessa idade tem idade suficiente para votar legalmente nos Estados Unidos.
+
+// Notas: * A idade legal para votar nos Estados Unidos é de 18 anos.
+
+// var output = isOldEnoughToVote (22);
+// console.log (output); // -> true
 
 
 //___________________________________________________________________
