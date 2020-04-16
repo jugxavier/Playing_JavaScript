@@ -37,3 +37,22 @@ function startCounting()
 }
 
 startCounting();
+//-----------------------------------------------------
+// Os loops são muito úteis, você não precisa se repetir escrevendo as mesmas linhas muitas vezes.
+
+// O loop "for" permite executar o mesmo código para valores diferentes.
+
+// Leia mais sobre loops:
+// https://www.w3schools.com/js/js_loop_for.asp
+
+// Instruções
+// Crie uma função chamada standardsMaker que imprima 300 vezes a frase "Farei perguntas se estiver com duvidas".
+function standardsMaker(){
+
+    
+}
+
+
+
+//calling the function
+standardsMaker();
