@@ -51,6 +51,15 @@ function isOldEnoughToDrink(age){
 // console.log (output); // -> true
 
 //your code here!!
+function isOldEnoughToDrive(age){
+    if(age >16){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+console.log(isOldEnoughToDrive(17))
 
 
 //___________________________________________________________________
