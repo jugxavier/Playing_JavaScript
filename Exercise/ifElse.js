@@ -107,7 +107,6 @@ function isOldEnoughToDrinkAndDrive(age){
 }
 console.log(isOldEnoughToDrinkAndDrive(50))
 //___________________________________________________________________
-
 // Aqui está uma tabela de preços para uma empresa de catering para casamentos:
 
 // Até 50 pessoas $ 4.000
@@ -126,4 +125,21 @@ console.log(isOldEnoughToDrinkAndDrive(50))
 let userInput = prompt('How many people are coming to your wedding?');
 //your code here
 
-console.log(userInput)
+    if(userInput <51){
+      console.log(4000)
+    }
+    else if(userInput <101){
+      console.log(10000)
+    }
+    else if(userInput <201){
+      console.log(15000)
+    }
+    else if(userInput >200){
+      console.log (20000)
+    }
+     else{
+       console.log("por favor especificar o numero")
+     }
+
+
+
