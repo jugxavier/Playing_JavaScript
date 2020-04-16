@@ -11,7 +11,8 @@
 
 function getRandomInt()
 {
-	var randomNumber = Math.random();
+	var randomNumber = Math.floor(Math.random()*10+1);
+	// randomNumber=5;
 	return randomNumber;
 }
 
