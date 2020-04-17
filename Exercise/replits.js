@@ -49,13 +49,13 @@ startCounting();
 // Crie uma função chamada standardsMaker que imprima 300 vezes a frase "Farei perguntas se estiver com duvidas".
 function standardsMaker()
 	{
-	
+		
 		for(var i = 0; i <= 300; i++)
 		{
 			if(i==299){
-				console.log("Farei perguntas se estiver com duvidas ok")
-			}
-			console.log("Farei perguntas se estiver com duvidas");
+			// 	console.log("Farei perguntas se estiver com duvidas ok")
+			// }
+			// console.log("Farei perguntas se estiver com duvidas");
 		}
 		
 		return i;
@@ -89,10 +89,10 @@ function getColor(selection){
 	}
 }
 
-var colorname = prompt('What color do you want?');
-var isAvailable = getColor(colorname.toLowerCase());
-if(isAvailable) console.log('Good news! That color is available');
-else console.log('We are sorry, that color is not available');
+// var colorname = prompt('What color do you want?');
+// var isAvailable = getColor(colorname.toLowerCase());
+// if(isAvailable) console.log('Good news! That color is available');
+// else console.log('We are sorry, that color is not available');
 //-----------------------------------------------------------------
 
 
@@ -118,31 +118,37 @@ else console.log('We are sorry, that color is not available');
 // https://repl.it/classroom/invite/BB4WDpk
 
 function getColor(colorNumber=0){
-	//making sure is a number and not a string
-	colorNumber = parseInt(colorNumber);
-	switch(colorNumber){
-        case 1: 
-            return "red"; 
-            break;
-        case 2: 
-            return "yellow"; 
-            break;
-        case 3: 
-            return "blue"; 
-            break;
-        case 4: 
-            return "green"; 
-            break;
-        default: 
-            return "black"; 
-            break;
+	// 	//making sure is a number and not a string
+		colorNumber = parseInt(colorNumber);
+		switch(colorNumber){
+			case 1: 
+				return "red"; 
+				break;
+			case 2: 
+				return "yellow"; 
+				break;
+			case 3: 
+				return "blue"; 
+				break;
+			case 4: 
+				return "green"; 
+				break;
+			default: 
+				return "black"; 
+				break;
+				// x
+		}
 	}
-}
-
-function getAllStudentColors(){
 	
-	//your loop here
-	var exampleColor = getColor(1);
-}
-
-console.log(getAllStudentColors())
+	function getAllStudentColors(){
+		let array=[]
+		for(let i=0; i<10; i++){
+			let test= getColor( Math.floor(Math.random()*4+1));
+			array.push(test);
+		}
+		return array
+		//your loop here
+		// var exampleColor = getColor(1);
+	}
+	
+	console.log(getAllStudentColors())
