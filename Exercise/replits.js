@@ -30,7 +30,7 @@ function startCounting()
 	
 	for(var i = 100; i >= 0; i--)
 	{
-		console.log(i);
+		//console.log(i);
 	}
 	
 	return i;
@@ -47,12 +47,18 @@ startCounting();
 
 // Instruções
 // Crie uma função chamada standardsMaker que imprima 300 vezes a frase "Farei perguntas se estiver com duvidas".
-function standardsMaker(){
-
-    
-}
-
-
-
+function standardsMaker()
+	{
+	
+		for(var i = 0; i <= 300; i++)
+		{
+			if(i==299){
+				console.log("Farei perguntas se estiver com duvidas ok")
+			}
+			console.log("Farei perguntas se estiver com duvidas");
+		}
+		
+		return i;
+	}
 //calling the function
 standardsMaker();
