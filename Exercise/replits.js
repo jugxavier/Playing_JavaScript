@@ -75,8 +75,13 @@ standardsMaker();
 // Dica:
 // http://www.w3schools.com/js/js_switch.asp
 
+
 function getColor(selection){
 	switch(selection){
+		case "red":
+		case"green":
+		case "blue":
+        	return true;
 		//Add more options here
 	    default :
 	    	return false;//return false because the user pick a unavailable color
@@ -85,6 +90,6 @@ function getColor(selection){
 }
 
 var colorname = prompt('What color do you want?');
-var isAvailable = getColor(colorname);
+var isAvailable = getColor(colorname.toLowerCase());
 if(isAvailable) console.log('Good news! That color is available');
 else console.log('We are sorry, that color is not available');
