@@ -62,3 +62,29 @@ function standardsMaker()
 	}
 //calling the function
 standardsMaker();
+//---------------------------------------
+
+// Imagine que seu software está executando o inventário de uma loja de sapatos, 
+// um cliente precisa saber em que cores você tem um determinado sapato.
+
+// Instruções
+// Complete esta declaração de opção com 3 cores possíveis: vermelho, verde e azul.
+
+// A função precisa retornar true se a cor estiver disponível ou false se a cor não estiver disponível.
+
+// Dica:
+// http://www.w3schools.com/js/js_switch.asp
+
+function getColor(selection){
+	switch(selection){
+		//Add more options here
+	    default :
+	    	return false;//return false because the user pick a unavailable color
+	    break;               
+	}
+}
+
+var colorname = prompt('What color do you want?');
+var isAvailable = getColor(colorname);
+if(isAvailable) console.log('Good news! That color is available');
+else console.log('We are sorry, that color is not available');
