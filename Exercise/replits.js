@@ -93,3 +93,56 @@ var colorname = prompt('What color do you want?');
 var isAvailable = getColor(colorname.toLowerCase());
 if(isAvailable) console.log('Good news! That color is available');
 else console.log('We are sorry, that color is not available');
+//-----------------------------------------------------------------
+
+
+// Criamos uma função que retorna uma cor com base em um número entre 1 e 4 (para qualquer número diferente, ela retornará a cor preta).
+
+// Instruções
+// Digamos que somos professores em uma sala de aula de 10 alunos e queremos 
+// atribuir aleatoriamente UMA cor, entre vermelho, amarelo, azul e verde, a CADA aluno.
+
+// (apenas uma cor por aluno)
+
+// Altere a função "getAllStudentColors" para que ele retorne uma matriz de 10 cores, 
+// com cada item na matriz representando a cor atribuída a cada aluno.
+
+// Dica:
+// - Você tem 10 alunos, precisa repetir 10 vezes.
+// - Cada vez que você faz um loop, gere um número aleatório entre 1 e 4 usando a função Math.random () que vimos no último exercício.
+// - Use a função "getColor" neste exercício para obter o nome da cor do número que você obtém.
+// - Imprima a cor no console.
+
+// MENSAGEM IMPORTANTE:
+// Se você acha que não está entendendo o loop, é uma boa idéia concluir a sala de aula Arrays Repl.it e voltar aqui:
+// https://repl.it/classroom/invite/BB4WDpk
+
+function getColor(colorNumber=0){
+	//making sure is a number and not a string
+	colorNumber = parseInt(colorNumber);
+	switch(colorNumber){
+        case 1: 
+            return "red"; 
+            break;
+        case 2: 
+            return "yellow"; 
+            break;
+        case 3: 
+            return "blue"; 
+            break;
+        case 4: 
+            return "green"; 
+            break;
+        default: 
+            return "black"; 
+            break;
+	}
+}
+
+function getAllStudentColors(){
+	
+	//your loop here
+	var exampleColor = getColor(1);
+}
+
+console.log(getAllStudentColors())
