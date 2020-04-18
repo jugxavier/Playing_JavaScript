@@ -117,41 +117,41 @@ function getColor(selection){
 // Se você acha que não está entendendo o loop, é uma boa idéia concluir a sala de aula Arrays Repl.it e voltar aqui:
 // https://repl.it/classroom/invite/BB4WDpk
 
-function getColor(colorNumber=0){
-	// 	//making sure is a number and not a string
-		colorNumber = parseInt(colorNumber);
-		switch(colorNumber){
-			case 1: 
-				return "red"; 
-				break;
-			case 2: 
-				return "yellow"; 
-				break;
-			case 3: 
-				return "blue"; 
-				break;
-			case 4: 
-				return "green"; 
-				break;
-			default: 
-				return "black"; 
-				break;
-				// x
-		}
-	}
+// function getColor(colorNumber=0){
+// 	// 	//making sure is a number and not a string
+// 		colorNumber = parseInt(colorNumber);
+// 		switch(colorNumber){
+// 			case 1: 
+// 				return "red"; 
+// 				break;
+// 			case 2: 
+// 				return "yellow"; 
+// 				break;
+// 			case 3: 
+// 				return "blue"; 
+// 				break;
+// 			case 4: 
+// 				return "green"; 
+// 				break;
+// 			default: 
+// 				return "black"; 
+// 				break;
+// 				// x
+// 		}
+// 	}
 	
-	function getAllStudentColors(){
-		let array=[]
-		for(let i=0; i<10; i++){
-			let test= getColor( Math.floor(Math.random()*4+1));
-			array.push(test);
-		}
-		return array
-		//your loop here
-		// var exampleColor = getColor(1);
-	}
+// 	function getAllStudentColors(){
+// 		let array=[]
+// 		for(let i=0; i<10; i++){
+// 			let test= getColor( Math.floor(Math.random()*4+1));
+// 			array.push(test);
+	// 	}
+	// 	return array
+	// 	//your loop here
+	// 	// var exampleColor = getColor(1);
+	// }
 	
-	console.log(getAllStudentColors())
+	// console.log(getAllStudentColors())
 //---------------------------------------------------
 //  Write a function called "checkAge". 
 
@@ -163,8 +163,16 @@ function getColor(colorNumber=0){
 
 // var output = checkAge('Adrian', 22);
 // console.log(output); // --> 'Welcome, Adrian!'
-
-function checkAge(name, age) {
+function checkAge(name, age){
+ 
+	switch(true){
+      case "name":
+      case age>=21:
+        return "Welcome, "+ name
+     break;
+      case age<21:
+        return "Go home, " + name
+    }       
   // your code here
 }
-
+ console.log(checkAge ("Adrian",222))
