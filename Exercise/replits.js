@@ -47,21 +47,21 @@ startCounting();
 
 // Instruções
 // Crie uma função chamada standardsMaker que imprima 300 vezes a frase "Farei perguntas se estiver com duvidas".
-function standardsMaker()
-	{
+// function standardsMaker()
+// 	{
 		
-		for(var i = 0; i <= 300; i++)
-		{
-			if(i==299){
-			// 	console.log("Farei perguntas se estiver com duvidas ok")
-			// }
-			// console.log("Farei perguntas se estiver com duvidas");
-		}
+// 		for(var i = 0; i <= 300; i++)
+// 		{
+// 			if(i==299){
+// 			// 	console.log("Farei perguntas se estiver com duvidas ok")
+// 			// }
+// 			// console.log("Farei perguntas se estiver com duvidas");
+// 		}
 		
-		return i;
-	}
-//calling the function
-standardsMaker();
+// 		return i;
+// 	}
+// //calling the function
+// standardsMaker();
 //---------------------------------------
 
 // Imagine que seu software está executando o inventário de uma loja de sapatos, 
@@ -152,3 +152,19 @@ function getColor(colorNumber=0){
 	}
 	
 	console.log(getAllStudentColors())
+//---------------------------------------------------
+//  Write a function called "checkAge". 
+
+// Given a person's name and age, "checkAge" returns one of two messages:
+
+// "Go home, {insert_name_here}!", if they are younger than 21."Welcome, {insert_name_here}!", if they are 21 or older.
+
+// Naturally, replace "{insert_name_here}" with the given name. :)
+
+// var output = checkAge('Adrian', 22);
+// console.log(output); // --> 'Welcome, Adrian!'
+
+function checkAge(name, age) {
+  // your code here
+}
+
