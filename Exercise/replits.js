@@ -180,11 +180,13 @@ function checkAge(name, age){
 // -----------------------------------------------
 // Escreva uma função chamada "getFullName".
 
-// Dado um nome e um sobrenome, "getFullName" retorna uma única sequência com o nome e o sobrenome separados por um único espaço.
+// Dado um nome e um sobrenome, "getFullName" retorna uma única sequência com o nome e o sobrenome separados por 
+//um único espaço.
 
 // var output = getFullName ('Joe', 'Smith');
 // console.log (saída); // -> 'Joe Smith'
 function getFullName(firstName, lastName) {
+	return firstName +" "+lastName
+  }
+  console.log(getFullName("Joe", "Smith"))
 
-}
-console.log(getFullName('Joe', 'Smith'))
