@@ -217,4 +217,15 @@ function getLengthOfTwoWords(word1, word2) {
 
 }
  console.log(getLengthOfTwoWords('some', 'words'))
-// >>>>>>> 09c62f53a2366b2dc157dfa972250655b7f51872
+//----------------------------------------
+// Write a function called "isGreaterThanTen".
+
+// Given a number, "isGreaterThanTen" returns whether it is greater than 10.
+
+// var output = isGreaterThanTen(11);
+// console.log(output); // --> true
+function isGreaterThanTen(num) {
+    //your code here
+    
+}
+console.log(isGreaterThanTen(11))
