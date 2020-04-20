@@ -187,6 +187,34 @@ function checkAge(name, age){
 // console.log (saída); // -> 'Joe Smith'
 function getFullName(firstName, lastName) {
 	return firstName +" "+lastName
-  }
-  console.log(getFullName("Joe", "Smith"))
+}
+console.log(getFullName("Joe", "Smith"))
+//------------------------------------------------
+// Write a function called "getLengthOfWord".
 
+// Given a word, "getLengthOfWord" returns the length of the given word.
+
+// var output = getLengthOfWord('some');
+// console.log(output); // --> 4
+function getLengthOfWord(word) {
+//your code herefunction getLengthOfWord(word) {
+	return word.length
+  //your code here
+  
+}
+  console.log(getLengthOfWord("some"))
+
+//----------------------------------------------
+//  Write a function called "getLengthOfTwoWords".
+
+// Given 2 words, "getLengthOfTwoWords" returns the sum of their lengths.
+
+// var output = getLengthOfTwoWords('some', 'words');
+// console.log(output); // --> 9
+function getLengthOfTwoWords(word1, word2) {
+//your code here
+	return word1.length + word2.length
+
+}
+ console.log(getLengthOfTwoWords('some', 'words'))
+// >>>>>>> 09c62f53a2366b2dc157dfa972250655b7f51872
