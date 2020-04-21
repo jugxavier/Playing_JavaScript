@@ -229,3 +229,61 @@ function isGreaterThanTen(num) {
     
 }
 console.log(isGreaterThanTen(11))
+//----------------------------------------
+//  Write a function called "isLessThan30".
+
+// Given a number, "isLessThan30" returns whether the given number is less than 30.
+
+// var output = isLessThan30(9);
+// console.log(output); // --> true
+function isLessThan30(num) {
+    //your code here
+
+}
+console.log(isLessThan30(9))
+//----------------------------------------
+//  Write a function called "equalsTen".
+
+// Given a number, "equalsTen" returns whether or not the given number is 10.
+
+// var output = equalsTen(9);
+// console.log(output); // --> false
+function equalsTen(num) {
+    //your code here
+}
+console.log(equalsTen(9))
+//----------------------------------------
+//  Write a function called "isLessThan".
+
+// Given 2 numbers, "isLessThan" returns whether num2 is less than num1.
+
+// var output = isLessThan(9, 4);
+// console.log(output); // --> true
+function isLessThan(num1, num2) {
+    //your code here
+
+}
+console.log(isLessThan(9,4))
+//----------------------------------------
+//  Write a function called "isGreaterThan".
+
+// Given 2 numbers, "isGreaterThan" returns whether num2 is greater than num1.
+
+// var output = isGreaterThan(11, 10);
+// console.log(output); // --> false
+function isGreaterThan(num1, num2) {
+//your code here
+ 
+}
+console.log(isGreaterThan(9,10))
+//----------------------------------------
+//  Write a function called "isEqualTo".
+
+// Given 2 numbers, "isEqualTo" returns whether num2 is equal to num1.
+
+// var output = isEqualTo(11, 10);
+// console.log(output); // --> false
+function isEqualTo(num1, num2) {
+//your code here
+}
+console.log(isEqualTo(11,10))
