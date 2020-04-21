@@ -225,7 +225,9 @@ function getLengthOfTwoWords(word1, word2) {
 // var output = isGreaterThanTen(11);
 // console.log(output); // --> true
 function isGreaterThanTen(num) {
-    //your code here
-    
+	if(num >10){
+		return true
+	}
+	return false
 }
-console.log(isGreaterThanTen(11))
+console.log(isGreaterThanTen(9))
