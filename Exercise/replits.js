@@ -230,7 +230,7 @@ function isGreaterThanTen(num) {
 	}
 	return false
 }
-console.log(isGreaterThanTen(11))
+// console.log(isGreaterThanTen(11))
 //----------------------------------------
 //  Write a function called "isLessThan30".
 
