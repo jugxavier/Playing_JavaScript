@@ -254,7 +254,12 @@ console.log(isLessThan30(9))
 // var output = equalsTen(9);
 // console.log(output); // --> false
 function equalsTen(num) {
-    //your code here
+     if(num ==10){
+    return true
+}
+else{
+  return false
+}
 }
 console.log(equalsTen(9))
 //----------------------------------------
@@ -283,7 +288,7 @@ function isGreaterThan(num1, num2){
 //your code here
 	if(num1<num2){
 	return true
-}
+	}
  return false
 }
 console.log(isGreaterThan(9,10))
@@ -296,5 +301,9 @@ console.log(isGreaterThan(9,10))
 // console.log(output); // --> false
 function isEqualTo(num1, num2) {
 //your code here
+if(num1=num2){
+    return true
+	}
+return false
 }
 console.log(isEqualTo(11,10))
