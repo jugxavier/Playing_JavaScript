@@ -239,8 +239,11 @@ function isGreaterThanTen(num) {
 // var output = isLessThan30(9);
 // console.log(output); // --> true
 function isLessThan30(num) {
-    //your code here
-
+	//your code here
+	if(num <30){
+		return true
+	}
+	return false
 }
 console.log(isLessThan30(9))
 //----------------------------------------
