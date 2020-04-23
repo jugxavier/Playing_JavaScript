@@ -274,7 +274,9 @@ function isLessThan(num1, num2) {
 	if(num1>num2){
 		return true
 	}
-	return false
+	else{
+		return false
+	}
 }
 console.log(isLessThan(9,4))
 //----------------------------------------
@@ -289,7 +291,9 @@ function isGreaterThan(num1, num2){
 	if(num1<num2){
 	return true
 	}
- return false
+	else{
+	 	return false
+	}
 }
 console.log(isGreaterThan(9,10))
 //----------------------------------------
@@ -304,6 +308,8 @@ function isEqualTo(num1, num2) {
 if(num1=num2){
     return true
 	}
-return false
+	else{
+		return false
+	}
 }
 console.log(isEqualTo(11,10))
